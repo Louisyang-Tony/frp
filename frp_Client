@@ -1,0 +1,14 @@
+$ vim frpc.ini
+
+[common]
+# server_addr 为 FRP 服务端的公网 IP
+server_addr = 4.3.2.1
+# server_port 为 FRP 服务端监听的端口
+server_port = 7000
+启动 FRP 客户端
+$ ./frpc -c ./frpc.ini
+2018/01_manager.g/25 11:15:49 [I] [proxyo:284] proxy removed: []
+2018/01/25 11:15:49 [I] [proxy_manager.go:294] proxy added: []
+2018/01/25 11:15:49 [I] [proxy_manager.go:317] visitor removed: []
+2018/01/25 11:15:49 [I] [proxy_manager.go:326] visitor added: []
+2018/01/25 11:15:49 [I] [control.go:240] [83775d7388b8e7d9] login to server success, get run id [83775d7388b8e7d9], server udp port [0]
